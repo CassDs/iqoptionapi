@@ -16,7 +16,7 @@ A classe principal para interagir com a API da IQ Option é a `IQ Option`.
 Para começar, inicialize a classe `IQ_Option` com seu e-mail e senha:
 
 ```python
-from IQ Optionapi.stable_api import IQ_Option
+from iqoptionapi.stable_api import IQ_Option
 
 email = "seu_email@example.com"
 senha = "sua_senha"
