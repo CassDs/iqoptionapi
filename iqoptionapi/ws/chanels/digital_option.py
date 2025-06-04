@@ -49,7 +49,7 @@ class DigitalOptionsPlaceDigitalOptionV2(Base):
     def __call__(self, instrument_id, asset_id, amount):
         data = {
             "name": "digital-options.place-digital-option",
-            "version": "2.0",
+            "version": "3.0",
             "body": {
                 "amount": str(amount),
                 "asset_id": int(asset_id),

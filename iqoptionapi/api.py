@@ -685,9 +685,9 @@ class IQOptionAPI(object):  # pylint: disable=too-many-instance-attributes
 # ____________________for_______digital____________________
 
     def get_digital_underlying(self):
-        msg = {"name": "get-underlying-list",
-               "version": "2.0",
-               "body": {"type": "digital-option"}
+        msg = {"name": "digital-option-instruments.get-underlying-list",
+               "version": "3.0",
+               "body": {"filter_suspended": True}
                }
         self.send_websocket_request(name="sendMessage", msg=msg)
 
